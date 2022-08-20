@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2% 5%;
+}
+nav i{
+    color: red;
+    font-size: 50px;
+    width: 200px;
+}
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+}
+.logo img{
+    width: 100px;
+    color: black;
+}
+.nav-item{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    font-size: large;
+    color: grey;
+    cursor: pointer;
+}
+.nav-active{
+    color: black;
+}
+
+.img img{
+    width: 550px;
+    height: 760px;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.container{
+    /* background-color: powderblue; */
+    margin-left: 550px;
+}
+
+.upper-c{
+    
+    position: relative;
+    height: 330px;
+}
+.upper-c h1{
+    display: inline-block;
+    font-size: 90px;
+    font-weight: 1000;
+    font-family: 'Mochiy Pop One', sans-serif;      
+    color: darkblue;
+}
+.upper-c h1 span{
+    margin-left: 200px;
+    color: black;
+}
+.upper-c h4{
+    display: inline-block;
+    font-family: 'Mochiy Pop One', sans-serif; 
+    font-size: 30px;
+    line-height: 1.5;
+    color: darkblue;
+    margin-left: 30px;
+    height: 50px;
+}
+.upper-c h4 span{
+    color: black;
+}
+.upper-c button{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    float: right;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding: 10px 40px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    float: right;
+    padding-right: 5%;
+    margin-top: 5px;
+}
+.socials i{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.bottom-c{
+    
+    position: relative;
+    height: 330px;
+}
+
+
+.down{
+    /* float: right; */
+    padding-right: 5%;
+    margin-top: 150px;
+}
+.down i{
+    font-size: 50px;
+}
+
+.flex{
+    display: flex;
+    position: relative;
+
+}
+.flex ul{
+    margin-left: 40px;
+    width: 50%;
+
+}
+
+.flex ul li{
+    line-height: 2;
+    font-size: 25px;
+    flood-color: grey;
+}
+
+.flex .second{
+    width: 100%;
+    
+}
+/* .second .img{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+.second img{
+    z-index: +1;
+    height: 200px;
+   
+} */
+
+.second{
+    position: relative;
+    height: 330px;
+}
+.second h1{
+    font-size: 80px;
+    font-family: sans-serif; 
+    margin-bottom: 20px;
+}
+
+.second img{
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width:650px) {
+    .logo{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    .nav-item{
+        margin-left: 10px;
+    }
+    .img img{
+        display: none;
+    }
+    .container{
+        margin-left: 5px;
+    }
+    .upper-c h1{
+        font-size: 30px;
+        display: block;
+        
+    }
+    .upper-c h1 span{
+        margin-left: 95px;
+    }
+    .upper-c h4 span{
+        margin-left: 95px;
+    }
+    .upper-c button{
+        position: relative;
+        margin-top: 20px;
+        float: left;
+        font-size: medium;
+        padding: 5px;
+        left: 0;
+    }
+    .bottom-c{
+        height: 100%;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .flex ul li{
+        font-size: 20px;
+    }
+    .second h1{
+        display: none;
+    }
+    .second h5{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .second img{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:651px) and (max-width:1340px){
+    body{
+        background-color:azure;
+    }
+    nav{
+        justify-content: center;
+    }
+    .nav-item{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .img img{
+        display: none;
+    }
+    .container{
+        margin-left: 5px;
+    }
+    .upper-c h1{
+        font-size: 50px;
+        display: block;
+        
+    }
+    .upper-c h1 span{
+        margin-left: 155px;
+    }
+    .upper-c h4{
+        margin-left: 150px;
+    }
+    .upper-c h4 span{
+        margin-left: 95px;
+    }
+    .upper-c button{
+        position: relative;
+        margin-top: 120px;
+        float: left;
+        font-size: large;
+        padding: 15px;
+        left: 0;
+    }
+    .socials i{
+        font-size: 40px;
+    }
+    .bottom-c{
+        position: relative;
+        height: 100%;
+        margin-top: 30px;
+    }
+    .flex{
+        flex-direction: column;
+        height: 100%;
+    }
+    .flex ul li{
+        font-size: 30px;
+    }
+    
+    .second h5{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .second img{
+        width: 400px;
+        height: 250px;
+        display: block;
+        position: relative;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .down{
+        position: absolute;
+        display: block;
+        margin-top: 20%;
+        margin-left: 50%;
+    }
+
+
+}
