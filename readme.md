@@ -16,4 +16,4 @@ it's take near about 2 Hour to complete.
 
 ## Deployed link
 
-[Dance Home Page](https://raj-product-designe-page.netlify.app/)
+[Dance Home Page](https://raj-dance-class.netlify.app/)
